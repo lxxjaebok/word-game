@@ -5,7 +5,7 @@ def get_user_name():
     print("Good Luck! %s" % user)
 
 def get_random_word():
-    words = ["hanyang university", "computer science", "data science", "python programming"]
+    words = ["hello world", "computer science", "south korea", "python programming"]
     return random.choice(words)    
 
 def guessing(word):
